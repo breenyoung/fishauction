@@ -1,0 +1,23 @@
+
+.copy_sm_bold_wh {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bolder; color: #FFFFFF}
+.copy_sm_bold_wh A:link {color:#FFFFFF;text-decoration:none}
+.copy_sm_bold_wh A:active {color:#FFFFFF;text-decoration:none}
+.copy_sm_bold_wh A:visited {color:#FFFFFF;text-decoration:none}
+.copy_sm_bold_wh A:hover {color:#FFFFFF; text-decoration: underline}
+
+
+
+.copy_smlr_bold_wh { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: bolder; color: #FFFFFF }
+
+.copy_sm_bold_bl { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bolder; color: #666666}
+.copy_sm_bold_bl A:link {color:#666666;text-decoration:none}
+.copy_sm_bold_bl A:active {color:#666666;text-decoration:none}
+.copy_sm_bold_bl A:visited {color:#666666;text-decoration:none}
+.copy_sm_bold_bl A:hover {color:#666666; text-decoration: underline}
+
+
+.copy_lg_bold_whCopy { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bolder; color: #FFFFFF }
+
+.copy_lg_bold_ylCopy2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bolder; color: #FFFF99}
+
+.copy_sm_bold_gr { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: lighter; color: #666666}

@@ -1,0 +1,88 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Components", "Components\Components.csproj", "{BB45CAC3-0031-46FD-BF9B-4D2450D4F871}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13895567-C433-41F7-86D5-46FF442580E1} = {13895567-C433-41F7-86D5-46FF442580E1}
+		{30933672-466E-4F67-A111-ABF267539146} = {30933672-466E-4F67-A111-ABF267539146}
+		{85C6BE7E-BB3A-409C-BE50-C39173322024} = {85C6BE7E-BB3A-409C-BE50-C39173322024}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationManagement", "Microsoft.ApplicationBlocks.ConfigurationManagement\ConfigurationManagement.csproj", "{85C6BE7E-BB3A-409C-BE50-C39173322024}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationManagement.Interfaces", "Microsoft.ApplicationBlocks.ConfigurationManagement.Interfaces\ConfigurationManagement.Interfaces.csproj", "{13895567-C433-41F7-86D5-46FF442580E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{30933672-466E-4F67-A111-ABF267539146} = {30933672-466E-4F67-A111-ABF267539146}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ApplicationBlocks.Data", "Microsoft.ApplicationBlocks.Data\Microsoft.ApplicationBlocks.Data.csproj", "{30933672-466E-4F67-A111-ABF267539146}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "http://fishauction.web109.discountasp.net/WebApp.csproj", "{0B050376-05C1-404D-BF15-A6D6DE346180}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Source", "WebSetup1\WebSetup1.vdproj", "{18D013EA-1E84-4785-B8DE-B9A7BBDBE82A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Redistributable", "Redist\Redist.vdproj", "{C32517BE-DE63-44A5-9C2A-552C8C8F421E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RedistLoose", "RedistLoose\RedistLoose.vdproj", "{E80382C0-E256-4CDA-B121-01857EBE5FAD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BB45CAC3-0031-46FD-BF9B-4D2450D4F871}.Debug.ActiveCfg = Release|.NET
+		{BB45CAC3-0031-46FD-BF9B-4D2450D4F871}.Debug.Build.0 = Release|.NET
+		{BB45CAC3-0031-46FD-BF9B-4D2450D4F871}.Release.ActiveCfg = Release|.NET
+		{BB45CAC3-0031-46FD-BF9B-4D2450D4F871}.Release.Build.0 = Release|.NET
+		{85C6BE7E-BB3A-409C-BE50-C39173322024}.Debug.ActiveCfg = Release|.NET
+		{85C6BE7E-BB3A-409C-BE50-C39173322024}.Debug.Build.0 = Release|.NET
+		{85C6BE7E-BB3A-409C-BE50-C39173322024}.Release.ActiveCfg = Release|.NET
+		{13895567-C433-41F7-86D5-46FF442580E1}.Debug.ActiveCfg = Release|.NET
+		{13895567-C433-41F7-86D5-46FF442580E1}.Debug.Build.0 = Release|.NET
+		{13895567-C433-41F7-86D5-46FF442580E1}.Release.ActiveCfg = Release|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug.ActiveCfg = Release|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Debug.Build.0 = Release|.NET
+		{30933672-466E-4F67-A111-ABF267539146}.Release.ActiveCfg = Release|.NET
+		{0B050376-05C1-404D-BF15-A6D6DE346180}.Debug.ActiveCfg = Release|.NET
+		{0B050376-05C1-404D-BF15-A6D6DE346180}.Debug.Build.0 = Release|.NET
+		{0B050376-05C1-404D-BF15-A6D6DE346180}.Release.ActiveCfg = Release|.NET
+		{0B050376-05C1-404D-BF15-A6D6DE346180}.Release.Build.0 = Release|.NET
+		{18D013EA-1E84-4785-B8DE-B9A7BBDBE82A}.Debug.ActiveCfg = Debug
+		{18D013EA-1E84-4785-B8DE-B9A7BBDBE82A}.Release.ActiveCfg = Release
+		{C32517BE-DE63-44A5-9C2A-552C8C8F421E}.Debug.ActiveCfg = Debug
+		{C32517BE-DE63-44A5-9C2A-552C8C8F421E}.Release.ActiveCfg = Release
+		{E80382C0-E256-4CDA-B121-01857EBE5FAD}.Debug.ActiveCfg = Debug
+		{E80382C0-E256-4CDA-B121-01857EBE5FAD}.Debug.Build.0 = Debug
+		{E80382C0-E256-4CDA-B121-01857EBE5FAD}.Release.ActiveCfg = Release
+		{E80382C0-E256-4CDA-B121-01857EBE5FAD}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		Sql\_FINAL.sql = Sql\_FINAL.sql
+		_TODO.txt = _TODO.txt
+		Sql\BernSPs.sql = Sql\BernSPs.sql
+		Sql\ClearTables.sql = Sql\ClearTables.sql
+		Sql\NewProcStuff.sql = Sql\NewProcStuff.sql
+		Notes.txt = Notes.txt
+		Sql\RefTablePop.sql = Sql\RefTablePop.sql
+		Sql\StoredProcs.sql = Sql\StoredProcs.sql
+		Sql\TableCreation.sql = Sql\TableCreation.sql
+		Sql\TestData.sql = Sql\TestData.sql
+		Timesheet.xls = Timesheet.xls
+		Sql\Users.sql = Sql\Users.sql
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

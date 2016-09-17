@@ -1,0 +1,10 @@
+DELETE FROM CatchGrades
+DELETE FROM CatchBreakdowns
+DELETE FROM CatchSupplies
+DELETE FROM Catches
+DELETE FROM TripPorts
+DELETE FROM Trips
+DELETE FROM Bids
+DELETE FROM AuctionHighBids
+DELETE FROM AuctionLots
+

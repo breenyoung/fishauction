@@ -1,0 +1,583 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{0B050376-05C1-404D-BF15-A6D6DE346180}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "WebApp"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "WebApp"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "Components"
+                    Project = "{BB45CAC3-0031-46FD-BF9B-4D2450D4F871}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "aspNetEmail"
+                    AssemblyName = "aspNetEmail"
+                    HintPath = "..\..\..\..\Program Files\AdvancedIntellect\aspNetEmail\v2.5.0\aspNetEmail.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "logout.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "logout.aspx.cs"
+                    DependentUpon = "logout.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "logout.aspx.resx"
+                    DependentUpon = "logout.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "supply_demand.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "systemReqs.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "systemReqs.aspx.cs"
+                    DependentUpon = "systemReqs.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "systemReqs.aspx.resx"
+                    DependentUpon = "systemReqs.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "test.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "test.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "test.aspx.cs"
+                    DependentUpon = "test.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "test.aspx.resx"
+                    DependentUpon = "test.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\adds_proc.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\admin_footer_include.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\auctions_final.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\auth.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\confirm_buy.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "admin\default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "admin\find_vessel.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\find_vessel_in.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\find_vessel_out.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\hails_proc.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\index_panel_op.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\logout.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\processor_accounts.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\processor_demand.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\vessel_form.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\vessel_in_2.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\vessel_out_2.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\view_vessels.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\dayactivity\default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\dayactivity\default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "admin\dayactivity\default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Auctions\auctionDetails.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Auctions\auctionDetails.aspx.cs"
+                    DependentUpon = "auctionDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Auctions\auctionDetails.aspx.resx"
+                    DependentUpon = "auctionDetails.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Auctions\default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Auctions\default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Auctions\default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Auctions\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Buyers\default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Buyers\default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Buyers\default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Buyers\summary.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Buyers\summary.aspx.cs"
+                    DependentUpon = "summary.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Buyers\summary.aspx.resx"
+                    DependentUpon = "summary.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Buyers\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Classes\WebUtils.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "images\buyer_panel_01.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\buyer_panel_03.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\buyer_panel_04.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\buyer_panel_05.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\buyer_panel_blnk_02.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\buyer_panel_market_02.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\buyer_panel_reports_02.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\buyer_panel_sea_02.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\edit_button.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\go_button.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\spacer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_01.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_02.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_04.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_06.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_17.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_2_04.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_2_06.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_2_07.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_800_01.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_admin_04.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_admin_06.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash_admin_07.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\stop_button.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\sub_button.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scheduler\closeAuctions.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scheduler\closeAuctions.aspx.cs"
+                    DependentUpon = "closeAuctions.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Scheduler\closeAuctions.aspx.resx"
+                    DependentUpon = "closeAuctions.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\AccountDetailsWidget.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\AccountDetailsWidget.ascx.cs"
+                    DependentUpon = "AccountDetailsWidget.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\AccountDetailsWidget.ascx.resx"
+                    DependentUpon = "AccountDetailsWidget.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\HeaderBanner.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\HeaderBanner.ascx.cs"
+                    DependentUpon = "HeaderBanner.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\HeaderBanner.ascx.resx"
+                    DependentUpon = "HeaderBanner.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\Auction\AuctionConfirm.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\Auction\AuctionConfirm.ascx.cs"
+                    DependentUpon = "AuctionConfirm.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\Auction\AuctionConfirm.ascx.resx"
+                    DependentUpon = "AuctionConfirm.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\Auction\AuctionDetails.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\Auction\AuctionDetails.ascx.cs"
+                    DependentUpon = "AuctionDetails.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\Auction\AuctionDetails.ascx.resx"
+                    DependentUpon = "AuctionDetails.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\Auction\AuctionSuccess.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\Auction\AuctionSuccess.ascx.cs"
+                    DependentUpon = "AuctionSuccess.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\Auction\AuctionSuccess.ascx.resx"
+                    DependentUpon = "AuctionSuccess.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
